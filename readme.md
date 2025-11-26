@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
-  <img src="https://img.shields.io/badge/Projects-2 out of 21-blueviolet" alt="Projects">
-  <img src="https://img.shields.io/badge/Lines%20of%20Code-210-orange" alt="LOC">
+  <img src="https://img.shields.io/badge/Projects-3 out of 21-blueviolet" alt="Projects">
+  <img src="https://img.shields.io/badge/Lines%20of%20Code-301-orange" alt="LOC">
   <img src="https://img.shields.io/badge/Time-Took%202%20days-lightgrey" alt="Time">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
@@ -23,8 +23,8 @@
 - [x] [**Number Guessing Game**](./b-number-guessing_game) (easy)  
   - Date of completion: 26 November 2025
 
-- [ ] [**Rock, Paper, Scissors**](./c-rock-paper-scissors_game) (easy)  
-  - Date of completion:  
+- [x] [**Rock, Paper, Scissors**](./c-rock-paper-scissors_game) (easy)  
+  - Date of completion: 26 November 2025
 
 - [ ] **Choose Your Own Adventure Game** (easy)  
   - Date of completion:  
