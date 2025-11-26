@@ -65,6 +65,9 @@ def valid_in():
             style("\nummm, we could not guess your input.\nTry Again...",0.02)
             sleep(2)
 
+def ui():
+    pass
+
 def game():
 
     style(f"\nROCK{'.'*3}",0.02)
