@@ -143,7 +143,6 @@ def ui(user_points,computer_points,points_to_win):
             print(f"\nUser : {user:>3} | Computer : {computer:>3}\n")
             print("We are facing some logical issue")
             
-        
         press_key()
         clear()
 
