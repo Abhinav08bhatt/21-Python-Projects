@@ -65,19 +65,29 @@ def valid_in():
             style("\nummm, we could not guess your input.\nTry Again...",0.02)
             sleep(2)
 
-def ui():
-    pass
+def ui(user_points,computer_points,points_to_win):
+
+    while user_points!=points_to_win or computer_points!=points_to_win:
+        print(f"User : {user_points:>3} | Computer : {computer_points:>5}")
+
+        style(f"\nROCK{'.'*3}",0.02)
+        sleep(0.5)
+        style(f"PAPER{'.'*3}",0.02)
+        sleep(0.5)
+        style(f"SCISSORS{'.'*3}",0.02)
+        sleep(0.5)
+        user = valid_in()
+        print(user)
+
 
 def game():
 
-    style(f"\nROCK{'.'*3}",0.02)
-    sleep(0.5)
-    style(f"PAPER{'.'*3}",0.02)
-    sleep(0.5)
-    style(f"SCISSORS{'.'*3}",0.02)
-    sleep(0.5)
-    user = valid_in()
-    print(user)
+    style("Welcome...\nReady for a ROCK...PAPER...SCISSORS game?\n")
+    points_to_win = int(input("Match of how many points ? \n(enter positive int) : "))
+    style(f"Alright, first to score {points_to_win} points wins!")
+    sleep(0.8)
+    style("!!!ALL THE BEST!!!",0.06)
+
 
 if __name__ == "__main__":
 
