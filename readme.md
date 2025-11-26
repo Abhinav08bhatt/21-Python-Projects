@@ -12,7 +12,7 @@
 - Following the video from : **Tech With Tim**
 - Video link : https://youtu.be/NpmFbWO6HPU?si=JZ3Y1jLG9oYnTw0I
 
-> **Note:** I wrote all the code myself. Problems were by tutorials, but implemented independently. 
+> **Note:** I wrote all the code myself. Problems were by tutorials, but implemented independently.
 ---
 
 ### Project Checklist
