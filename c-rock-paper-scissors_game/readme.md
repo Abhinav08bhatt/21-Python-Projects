@@ -1,4 +1,4 @@
-# Quiz Game
+# Rock, Paper, Scissor game
 
 > A command-line game where the user plays rock, paper or scissors against a computer opponent.
 

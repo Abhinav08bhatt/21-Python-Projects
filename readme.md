@@ -26,7 +26,7 @@
 - [x] [**Rock, Paper, Scissors**](./c-rock-paper-scissors_game) (easy)  
   - Date of completion: 26 November 2025
 
-- [ ] **Choose Your Own Adventure Game** (easy)  
+- [ ] [**Choose Your Own Adventure Game**](./d-choose-your-own-adventure_game) (easy)  
   - Date of completion:  
 
 - [ ] **Password Manager** (medium)  

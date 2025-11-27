@@ -1,4 +1,4 @@
-# Quiz Game
+# Number guessing game
 
 > A command-line game where the user attempts to guess a random number chosen by the computer.
 
