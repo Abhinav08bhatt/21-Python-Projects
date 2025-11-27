@@ -1,0 +1,382 @@
+{
+  "nodes": [
+    {
+      "type": "text",
+      "id": "5b14a91d-e113-42a2-9ee9-0d07ee4b4d0e",
+      "x": 590.5,
+      "y": 235,
+      "width": 260,
+      "height": 80,
+      "text": "---\ntext-align: center\n---\n## The Forest Gate"
+    },
+    {
+      "type": "text",
+      "id": "19b4aa2a-6631-49c2-99ef-4fdb32bafca7",
+      "x": 1268,
+      "y": 144,
+      "width": 260,
+      "height": 80,
+      "color": "4",
+      "text": "---\ntext-align: center\n---\n### The Forgotten Ruins"
+    },
+    {
+      "type": "text",
+      "id": "5d3563e1-e7a9-428a-9acd-601ee3e1043f",
+      "x": -97,
+      "y": 152,
+      "width": 260,
+      "height": 80,
+      "color": "4",
+      "text": "---\ntext-align: center\n---\n\n\n### The Whispering River"
+    },
+    {
+      "type": "text",
+      "id": "4bf0750d-bdce-49a4-8f15-fffb9ae95c28",
+      "x": -96,
+      "y": 409,
+      "width": 260,
+      "height": 80,
+      "color": "1",
+      "text": "Spirit’s Curse"
+    },
+    {
+      "type": "text",
+      "id": "ec9c7dc9-cac2-49ce-a173-b9c54a3b2f39",
+      "x": 1264,
+      "y": -110,
+      "width": 260,
+      "height": 80,
+      "color": "4",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "907ac1ac-7706-4075-ae8e-522e4f46d039",
+      "x": 1271,
+      "y": 408,
+      "width": 260,
+      "height": 80,
+      "color": "1",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "2b0d0bac-2d6a-49c9-b4ae-94c22be2f6ee",
+      "x": 262,
+      "y": 409,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "e75dc294-26b7-43ae-88f8-d393cb2d58f9",
+      "x": -447,
+      "y": 408,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "709cd288-b2b7-4d6e-8b98-d1fb92a29d54",
+      "x": 921,
+      "y": -110,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "032ae43c-e5e5-40ce-a6a1-f79ca8c6ac96",
+      "x": 928,
+      "y": 409,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "8cf8993e-7a20-4603-8520-917614cd0729",
+      "x": 1619,
+      "y": 406,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "02b957a2-53af-455e-8b7b-cadb4347c0ef",
+      "x": 1608,
+      "y": -109,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "3c75889e-540b-4f9b-913f-7d9dc8f4223f",
+      "x": 591,
+      "y": 80,
+      "width": 260,
+      "height": 80,
+      "text": "---\ntext-align: center\n---\nWelcome, introduction."
+    },
+    {
+      "type": "text",
+      "id": "07995c00-f8a7-41eb-8083-dfcffce3671a",
+      "x": 1268,
+      "y": 252,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "855ab518-19e5-429f-b989-d84825c16586",
+      "x": -96,
+      "y": 257,
+      "width": 260,
+      "height": 80,
+      "text": " Ignore the Stranger"
+    },
+    {
+      "type": "text",
+      "id": "684231d3-649e-42e6-88ef-2ed28fa5bf13",
+      "x": -97.5,
+      "y": -94,
+      "width": 260,
+      "height": 80,
+      "color": "4",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "857fcb45-759e-4336-a72c-4b8f36d5a18f",
+      "x": 260.5,
+      "y": -94,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "80b8824c-52d9-4eec-9908-edf7c382fd97",
+      "x": -448.5,
+      "y": -95,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    },
+    {
+      "type": "text",
+      "id": "3be1616c-5c0e-49c2-b9fc-e260e1094d22",
+      "x": -97.5,
+      "y": 50,
+      "width": 260,
+      "height": 80,
+      "text": "Help the Drowning Stranger\n"
+    },
+    {
+      "type": "text",
+      "id": "3129e7d0-fd76-40c5-88b2-f779d4863ac5",
+      "x": 1266,
+      "y": 33,
+      "width": 260,
+      "height": 80,
+      "text": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "be2fbcde-5198-4ccb-979b-321976a3b3ff",
+      "fromNode": "5b14a91d-e113-42a2-9ee9-0d07ee4b4d0e",
+      "fromSide": "right",
+      "toNode": "19b4aa2a-6631-49c2-99ef-4fdb32bafca7",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "648a16ea-74c8-458a-923e-5d98cca98d82",
+      "fromNode": "4bf0750d-bdce-49a4-8f15-fffb9ae95c28",
+      "fromSide": "right",
+      "toNode": "2b0d0bac-2d6a-49c9-b4ae-94c22be2f6ee",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "90f1850e-ad38-4ebb-b058-0f75d58fcbdd",
+      "fromNode": "4bf0750d-bdce-49a4-8f15-fffb9ae95c28",
+      "fromSide": "left",
+      "toNode": "e75dc294-26b7-43ae-88f8-d393cb2d58f9",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "010581e2-b86a-41cd-ae7c-fdf7e6660bc0",
+      "fromNode": "ec9c7dc9-cac2-49ce-a173-b9c54a3b2f39",
+      "fromSide": "left",
+      "toNode": "709cd288-b2b7-4d6e-8b98-d1fb92a29d54",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "ad84cc9d-6224-49e6-b95b-b52ed6e5ea8a",
+      "fromNode": "907ac1ac-7706-4075-ae8e-522e4f46d039",
+      "fromSide": "left",
+      "toNode": "032ae43c-e5e5-40ce-a6a1-f79ca8c6ac96",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "13bb0d4e-43c6-4ba2-b5e7-959ee12aa5c8",
+      "fromNode": "907ac1ac-7706-4075-ae8e-522e4f46d039",
+      "fromSide": "right",
+      "toNode": "8cf8993e-7a20-4603-8520-917614cd0729",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "a1577f8a-66ea-446a-b2b4-9549ba78dbe0",
+      "fromNode": "ec9c7dc9-cac2-49ce-a173-b9c54a3b2f39",
+      "fromSide": "right",
+      "toNode": "02b957a2-53af-455e-8b7b-cadb4347c0ef",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "fadcba1d-f52b-4f54-8295-0258d0e8a187",
+      "fromNode": "3c75889e-540b-4f9b-913f-7d9dc8f4223f",
+      "fromSide": "bottom",
+      "toNode": "5b14a91d-e113-42a2-9ee9-0d07ee4b4d0e",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "aa41c22a-229a-4d56-8eb7-df056ebde665",
+      "fromNode": "19b4aa2a-6631-49c2-99ef-4fdb32bafca7",
+      "fromSide": "bottom",
+      "toNode": "07995c00-f8a7-41eb-8083-dfcffce3671a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "09bfa06a-e474-4f0d-882e-f0a6da1374ec",
+      "fromNode": "07995c00-f8a7-41eb-8083-dfcffce3671a",
+      "fromSide": "bottom",
+      "toNode": "907ac1ac-7706-4075-ae8e-522e4f46d039",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "87bcdfe3-204e-4e4b-8dde-07a8075f8d34",
+      "fromNode": "5d3563e1-e7a9-428a-9acd-601ee3e1043f",
+      "fromSide": "bottom",
+      "toNode": "855ab518-19e5-429f-b989-d84825c16586",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "2236db13-7a43-47b9-8173-c445767df6cc",
+      "fromNode": "5b14a91d-e113-42a2-9ee9-0d07ee4b4d0e",
+      "fromSide": "left",
+      "toNode": "5d3563e1-e7a9-428a-9acd-601ee3e1043f",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "b02fbefa-2f69-498b-bd1f-6853ac254eb8",
+      "fromNode": "855ab518-19e5-429f-b989-d84825c16586",
+      "fromSide": "bottom",
+      "toNode": "4bf0750d-bdce-49a4-8f15-fffb9ae95c28",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "90dedd61-32be-44e6-84ef-7df2e30d8c4f",
+      "fromNode": "684231d3-649e-42e6-88ef-2ed28fa5bf13",
+      "fromSide": "right",
+      "toNode": "857fcb45-759e-4336-a72c-4b8f36d5a18f",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "a4cf1620-5606-46ac-8857-f3ddd0851175",
+      "fromNode": "684231d3-649e-42e6-88ef-2ed28fa5bf13",
+      "fromSide": "left",
+      "toNode": "80b8824c-52d9-4eec-9908-edf7c382fd97",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "25969086-496a-4b0e-8f70-bbfd4ebf934e",
+      "fromNode": "3be1616c-5c0e-49c2-b9fc-e260e1094d22",
+      "fromSide": "top",
+      "toNode": "684231d3-649e-42e6-88ef-2ed28fa5bf13",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "910d0e47-f3c1-44d5-8ec5-7fbe143bf699",
+      "fromNode": "5d3563e1-e7a9-428a-9acd-601ee3e1043f",
+      "fromSide": "top",
+      "toNode": "3be1616c-5c0e-49c2-b9fc-e260e1094d22",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "e10fb2bc-e2a7-4004-8c77-bbb51efcaf07",
+      "fromNode": "19b4aa2a-6631-49c2-99ef-4fdb32bafca7",
+      "fromSide": "top",
+      "toNode": "3129e7d0-fd76-40c5-88b2-f779d4863ac5",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "f065aec4-9379-4347-90ed-793a00068217",
+      "fromNode": "3129e7d0-fd76-40c5-88b2-f779d4863ac5",
+      "fromSide": "top",
+      "toNode": "ec9c7dc9-cac2-49ce-a173-b9c54a3b2f39",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    }
+  ]
+}
