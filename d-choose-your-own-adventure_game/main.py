@@ -48,62 +48,57 @@ def valid_input():
             style("\nummm, we could not guess your input.\nTry Again...",0.02)
             sleep(2)
 
-def inventory_logic(l):
+def data_logic(l):
     '''
-    inventory stores different types of utilities that u find in the game and use them during gameplay
+    data handling for the health and inventory in the game
+    it can be : 
+    : param l=[ "health" , "action" , amount  ]
+    OR can be
+    : param l=[ "inventory" , "action" ,  amount  , "type" ]
     
-    :param l=[ type , action , amount ]
-    
-    l[0] : type : type of utilities
-    l[1] : action : 0-reduce , 1-add
-    l[2] : amount : amount to be added or reduced from the inventory 
-
-    :return nothing just make changes in the list
+    l[0] : str : health or inventory
+    l[1] : str : add or reduce
+    l[2] : int : amount to be added or reduced
+    l[3] : str : (only when l[0] is inventory) : type of utility
     '''
-    utility_type = l[0]
+    data_type = l[0]
     action = l[1]
     amount = l[2]
 
-    if action == 0 : # reduce from inventory
-        pass
-
-    elif action == 1 : # add in inventory
-        pass
-
-    pass
-
-def health_logic(l):
-    '''
-    inventory stores different types of utilities that u find in the game and use them during gameplay
-    
-    :param l=[ action , amount ]
-    
-    l[0] : action : 0-reduce , 1-add
-    l[1] : amount : amount to be added or reduced from the health 
-
-    :return nothing just make changes in the list
-    '''
-    action = l[0]
-    amount = l[1]
-
-    if action == 0 : # reduce from inventory
-        pass
-
-    elif action == 1 : # add in inventory
+    if data_type == "health" : 
+        
+        if action == "add" : 
+            pass
+        
+        elif action == "reduce" :
+            pass
+        
         pass
     
-    
-    pass
+    elif data_type == "inventory" : 
+        utility_type = l[3]
 
-def database():
+        if action == "add" : 
+            pass
+        
+        elif action == "reduce" :
+            pass
+        
+        pass
+
+def database(request):
     '''
     Storing the data of health and items in inventory in a form of dict
+    
+    : param request : health or inventory
     '''
-    data = {"health":100,
+    data = {"health":10,
             "inventory":{
                 "water":10
             }
     }
+
+    return data.get(request , {})
 
 def story(location):
     """
@@ -137,40 +132,64 @@ def story(location):
             "effects": {
                 "l": [
                     ["health", "reduce", 10],
-                    ["inventory", "add", "silver", 3]
+                    ["inventory", "add", "silver", 3],
+                    ["inventory", "reduce", "water", 5]
                 ],
-                "r": []
+                "r": [
+                    ["inventory","sin","add",5],
+                    ["inventory", "reduce", "water", 5]
+                ]
             }
         },
     }
 
     return story_tree.get(location, {})
 
-
-    pass
-
-def ui(location,choice_number,inventory):
+def ui(location,choice_num):
     '''
     location :                      choices made : 
-    inventory : {item number}       health : 
+    health :                        inventory : {item number}        
+
+    Text : 
 
     Condition : 
 
     Enter input : Right, left, x for inventory
     '''
+    current_location = location
+    choice_number = choice_num
+    health = database("health")
+    inventory = database("inventory")
+
+    while True:
+
+        # create variables to print
+
+        print(f'''
+
+    Location : {current_location}{'':>20} Choices Made : {choice_number}
+
+    Health : [{"■"*health}{' '*(10-health)}]{'':>14} Inventory : press x 
+
+            ''')
+
+        node = story(current_location)
+
+        if not node:
+            print("No scene found for : ", current_location)
     
-    
-    pass
+
 
 
 def game():
 
-    
-    
+    current_location = "main"
+
+    ui(current_location,)    
     pass
 
 if __name__ == "__main__":
 
     clear()
-    h = valid_input()
-    print(h)
+    
+    game()
