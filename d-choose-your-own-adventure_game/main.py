@@ -91,8 +91,7 @@ def data_logic(effect):
         if action == "add":
             GAME_STATE["inventory"][utility] += amount
         else:
-            GAME_STATE["inventory"][utility] -= amount
-            # do not let negative values happen
+            GAME_STATE["inventory"][utility] = max(0, GAME_STATE["inventory"][utility] - amount)
 
 def story(location):
 
@@ -474,7 +473,7 @@ def story(location):
         "Drink the Water": {
             "text":
                 "You drink deeply.\n"
-            "    The path forward leads into an ancient courtyard.",
+                "    The path forward leads into an ancient courtyard.",
             "choices": {
                 "l": "Ancient Gate",
                 "r": "Collapsed Corridor"
@@ -655,11 +654,12 @@ def story(location):
             "text":
                 "You push with all your strength.\n"
                 "    The stone trembles...\n"
-                "    Then collapses on top of you.",
+                "    Then collapses on top of you.\n"
+                "\n"
+                "    ENDING: Crushed — Strength alone was not enough.",
             "choices": {},
             "effects": {}
         },
-
         # ---------------------------------------------------
         # Collapsed Corridor
         # ---------------------------------------------------
@@ -741,6 +741,22 @@ def story(location):
 
     return story_tree.get(location, {})
 
+def show_effects(effects):
+    if not effects:
+        return
+
+    print("\n    Effect(s):")
+    for e in effects:
+        if e[0] == "health":
+            action = "Gained" if e[1] == "add" else "Lost"
+            print(f"        {action} {e[2]} health.")
+        elif e[0] == "inventory":
+            action = "Gained" if e[1] == "add" else "Lost"
+            item = e[2]
+            amount = e[3]
+            print(f"        {action} {amount} {item}.")
+    sleep(1.5)
+
 def logic(current_location,left_choice,right_choice,left_effect,right_effect,choice_number,inventory):
 
     user_input = valid_input()
@@ -750,18 +766,26 @@ def logic(current_location,left_choice,right_choice,left_effect,right_effect,cho
         current_location = left_choice
         for effect in left_effect:
             data_logic(effect)
+        show_effects(left_effect)
 
     elif user_input == 'r' :
         current_location = right_choice
         for effect in right_effect:
             data_logic(effect)
+        show_effects(right_effect)
 
-    elif user_input == 'x' :
-        style("Haven't made it yet...")
+    elif user_input == 'x':
+        print("\n    ==== INVENTORY ====")
+        for item, qty in GAME_STATE["inventory"].items():
+            print(f"    {item.capitalize()} : {qty}")
+        print("    ====================")
+        press_key()  
+
     else:
         style("Something is Wrong...")
 
     return(current_location,choice_number)
+
 
 def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,choice_number,health,inventory):
     '''
@@ -777,11 +801,12 @@ def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,c
     while True:
     # while True:
 
+        current_health = GAME_STATE["health"]
         print(f'''
-
     Location : {current_location}{'':>25} Choices Made : {choice_number}
 
-    Health : [{"■"*health}{'-'*(10-health)}]{'':>19} Inventory : press x 
+    Health : [{"■" * current_health}{'-' * (10 - current_health)}]{'':>19} Inventory : press x 
+
 
     ====================================================================
     
@@ -814,7 +839,7 @@ def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,c
         
         health = GAME_STATE["health"]
         if health <= 0:
-            print("\n    ",style("You Died!"))
+            style("\n    You Died!")
             break
 
         inventory = GAME_STATE["inventory"]
@@ -828,6 +853,16 @@ def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,c
 
 
 def game():
+
+        # reset global state
+    GAME_STATE["health"] = 10
+    GAME_STATE["inventory"] = {
+        "water": 50,
+        "silver": 0,
+        "gold": 0,
+        "key": 0
+    }
+
 
     current_location = "main"
     choice_number = 0
