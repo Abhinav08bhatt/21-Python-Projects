@@ -331,7 +331,7 @@ def story(location):
         },
 
         # ---------------------------------------------------
-        # MIDGAME LOCATIONS
+        # MID-GAME LOCATIONS
         # ---------------------------------------------------
         "Cross the Bridge": {
             "text":
@@ -459,7 +459,7 @@ def story(location):
         "Follow Narrow Crack": {
             "text":
                 "You squeeze through the narrow gap.\n"
-                "    A hidden freshenergy pool lies before you.",
+                "    A hidden fresh energy pool lies before you.",
             "choices": {
                 "l": "Drink the energy",
                 "r": "Fill Bottles"
