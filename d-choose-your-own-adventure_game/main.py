@@ -3,7 +3,7 @@ from utilities import clear , style , press_key , sleep
 GAME_STATE = {
     "health": 10,
     "inventory": {
-        "water": 50,
+        "energy": 50,
         "silver": 0,
         "gold": 0,
         "key": 0
@@ -18,7 +18,7 @@ def valid_input():
         user = input("\n    RIGHT or LEFT???\n    Enter your choice : ").lower()
     # check if empty
         if not user:
-            style("\n    Empty input...\n    Try Again...",0.02)
+            style("\n    Empty input...\n    Try Again...\n",0.02)
             sleep(1)
             continue
     # check for inventory
@@ -38,7 +38,7 @@ def valid_input():
                     user = 'r'
                     return user
                 else:
-                    style("\n    ummm, we could not guess your input.\n    Try Again...",0.02)
+                    style("\n    ummm, we could not guess your input.\n    Try Again...\n",0.02)
                     sleep(2)
     # check if its left
         elif user[0]=='l':
@@ -51,11 +51,11 @@ def valid_input():
                     user = 'l'
                     return user
                 else:
-                    style("\n    ummm, we could not guess your input.\n    Try Again...",0.02)
+                    style("\n    ummm, we could not guess your input.\n    Try Again...\n",0.02)
                     sleep(2)
     # if could not understand
         else:
-            style("\n    ummm, we could not guess your input.\n    Try Again...",0.02)
+            style("\n    ummm, we could not guess your input.\n    Try Again...\n",0.02)
             sleep(2)
 
 def data_logic(effect):
@@ -112,8 +112,8 @@ def story(location):
                 "r": "Collapsed Chamber"
             },
             "effects": {
-                "l": [["inventory", "reduce", "water", 5]],
-                "r": [["inventory", "reduce", "water", 5]]
+                "l": [["inventory", "reduce", "energy", 5]],
+                "r": [["inventory", "reduce", "energy", 5]]
             }
         },
 
@@ -132,8 +132,8 @@ def story(location):
                 "r": "Climb Over Debris"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5],["health","reduce",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5],["health","reduce",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -147,8 +147,8 @@ def story(location):
                 "r": "Return to Ruins Entrance"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -161,8 +161,8 @@ def story(location):
                 "r": "Dark Staircase"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -175,8 +175,8 @@ def story(location):
                 "r": "Take the Lower Path"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -190,8 +190,8 @@ def story(location):
                 "r": "Dark Staircase"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -210,8 +210,8 @@ def story(location):
                 "r": "Dark Staircase"
             },
             "effects": {
-                "l": [["inventory","reduce","water",5]],
-                "r": [["inventory","reduce","water",5],["health","reduce",5]]
+                "l": [["inventory","reduce","energy",5]],
+                "r": [["inventory","reduce","energy",5],["health","reduce",5]]
             }
         },
 
@@ -232,10 +232,10 @@ def story(location):
             "effects": {
                 "l": [
                     ["health","add",20],
-                    ["inventory","reduce","water",5],
+                    ["inventory","reduce","energy",5],
                     ["inventory","reduce","silver",2]
                 ],
-                "r": [["inventory","reduce","water",5]]
+                "r": [["inventory","reduce","energy",5]]
             }
         },
 
@@ -252,8 +252,8 @@ def story(location):
                 "r": "Run Back Upstairs"
             },
             "effects": {
-                "l":[["health","reduce",15],["inventory","add","silver",5],["inventory","reduce","water",5]],
-                "r":[["health","reduce",10],["inventory","reduce","water",5]]
+                "l":[["health","reduce",15],["inventory","add","silver",5],["inventory","reduce","energy",5]],
+                "r":[["health","reduce",10],["inventory","reduce","energy",5]]
             }
         },
 
@@ -271,8 +271,8 @@ def story(location):
                 "r": "Explore Side Tunnel"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -291,8 +291,8 @@ def story(location):
                 "r": "Follow Narrow Crack"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -308,8 +308,8 @@ def story(location):
                 "r": "Loot the Creature"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5],["inventory","add","gold",3]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5],["inventory","add","gold",3]]
             }
         },
 
@@ -325,8 +325,8 @@ def story(location):
                 "r": "Push Forward Again"
             },
             "effects": {
-                "l":[["health","add",10],["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["health","add",10],["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -342,8 +342,8 @@ def story(location):
                 "r": "Ignore and Cross Safely"
             },
             "effects": {
-                "l":[["health","add",10],["inventory","reduce","water",5]],
-                "r":[["health","reduce",10],["inventory","reduce","water",5]]
+                "l":[["health","add",10],["inventory","reduce","energy",5]],
+                "r":[["health","reduce",10],["inventory","reduce","energy",5]]
             }
         },
 
@@ -356,8 +356,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -371,8 +371,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -388,8 +388,8 @@ def story(location):
                 "r": "Move Past Silently"
             },
             "effects": {
-                "l":[["inventory","add","silver",7],["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","add","silver",7],["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -402,8 +402,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -416,8 +416,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -433,8 +433,8 @@ def story(location):
                 "r": "Break a Wall"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5],["health","reduce",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5],["health","reduce",5]]
             }
         },
 
@@ -459,18 +459,18 @@ def story(location):
         "Follow Narrow Crack": {
             "text":
                 "You squeeze through the narrow gap.\n"
-                "    A hidden freshwater pool lies before you.",
+                "    A hidden freshenergy pool lies before you.",
             "choices": {
-                "l": "Drink the Water",
+                "l": "Drink the energy",
                 "r": "Fill Bottles"
             },
             "effects": {
-                "l":[["health","add",10],["inventory","reduce","water",5]],
-                "r":[["inventory","add","water",10],["inventory","reduce","water",5]]
+                "l":[["health","add",10],["inventory","reduce","energy",5]],
+                "r":[["inventory","add","energy",10],["inventory","reduce","energy",5]]
             }
         },
 
-        "Drink the Water": {
+        "Drink the energy": {
             "text":
                 "You drink deeply.\n"
                 "    The path forward leads into an ancient courtyard.",
@@ -479,8 +479,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -493,8 +493,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -510,8 +510,8 @@ def story(location):
                 "r": "Turn Back"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -527,8 +527,8 @@ def story(location):
                 "r": "Leave the Key and Retreat"
             },
             "effects": {
-                "l":[["inventory","add","key",1],["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","add","key",1],["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -541,8 +541,8 @@ def story(location):
                 "r": "Collapsed Corridor"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -555,8 +555,8 @@ def story(location):
                 "r": "Hall of Echoes"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -572,8 +572,8 @@ def story(location):
                 "r": "Ignore and Move On"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -610,8 +610,8 @@ def story(location):
                 "r": "Try Forcing the Gate"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
-                "r":[["inventory","reduce","water",5],["health","reduce",5]]
+                "l":[["inventory","reduce","energy",5]],
+                "r":[["inventory","reduce","energy",5],["health","reduce",5]]
             }
         },
 
@@ -673,8 +673,8 @@ def story(location):
                 "r": "Retreat to Previous Hall"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5],["health","reduce",10]],
-                "r":[["inventory","reduce","water",5]]
+                "l":[["inventory","reduce","energy",5],["health","reduce",10]],
+                "r":[["inventory","reduce","energy",5]]
             }
         },
 
@@ -687,7 +687,7 @@ def story(location):
                 "r": "Collapse From Exhaustion"
             },
             "effects": {
-                "l":[["inventory","reduce","water",5]],
+                "l":[["inventory","reduce","energy",5]],
                 "r":[["health","reduce",999]]
             }
         },
@@ -744,18 +744,41 @@ def story(location):
 def show_effects(effects):
     if not effects:
         return
+    
+    clear()
 
-    print("\n    Effect(s):")
+    WIDTH = 67  
+    def center(text):
+        return text.center(WIDTH)
+
+    print("\n" * 3)
+    print(" " * 4 + "=" * WIDTH)
+    print(" " * 4 + center("EFFECT(S) APPLIED"))
+    print(" " * 4 + "=" * WIDTH)
+    print("\n")
+
     for e in effects:
         if e[0] == "health":
             action = "Gained" if e[1] == "add" else "Lost"
-            print(f"        {action} {e[2]} health.")
+            amount = e[2]
+            line = f"{action} {amount} Health"
+            print(" " * 4 + center(line))
+
         elif e[0] == "inventory":
             action = "Gained" if e[1] == "add" else "Lost"
-            item = e[2]
+            item = e[2].capitalize()
             amount = e[3]
-            print(f"        {action} {amount} {item}.")
-    sleep(1.5)
+            line = f"{action} {amount} {item}"
+            print(" " * 4 + center(line))
+
+    print("\n")
+    print(" " * 4 + "=" * WIDTH)
+    print(" " * 4 + center("Press ENTER to continue"))
+    print(" " * 4 + "=" * WIDTH)
+    print("\n" * 2)
+
+    input()
+
 
 def logic(current_location,left_choice,right_choice,left_effect,right_effect,choice_number,inventory):
 
@@ -779,7 +802,7 @@ def logic(current_location,left_choice,right_choice,left_effect,right_effect,cho
         for item, qty in GAME_STATE["inventory"].items():
             print(f"    {item.capitalize()} : {qty}")
         print("    ====================")
-        press_key()  
+        print("    ",press_key())  
 
     else:
         style("Something is Wrong...")
@@ -789,8 +812,8 @@ def logic(current_location,left_choice,right_choice,left_effect,right_effect,cho
 
 def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,choice_number,health,inventory):
     '''
-    location :                      choices made : 
-    health :                        inventory : {item number}        
+    location :                      inventory : {item number} 
+    health :                        energy :
 
     Text : 
 
@@ -802,10 +825,21 @@ def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,c
     # while True:
 
         current_health = GAME_STATE["health"]
-        print(f'''
-    Location : {current_location}{'':>25} Choices Made : {choice_number}
+        current_energy = GAME_STATE["inventory"]["energy"]
+        energy_units = max(0, min(10, current_energy // 5))
 
-    Health : [{"■" * current_health}{'-' * (10 - current_health)}]{'':>19} Inventory : press x 
+        print("\n" * 2)
+        print("    ========================================================")
+        print("                    Entering: ",end='')
+        style(f"{current_location:>10}\n")
+        print("    ========================================================")
+        sleep(1.5)
+        clear()
+
+        print(f'''
+                        Location : {current_location:>10}
+
+    Health : [{"■" * current_health}{'-' * (10 - current_health)}] {'Energy':>25} :  [{"■" * energy_units}{'-' * (10 - energy_units)}]
 
 
     ====================================================================
@@ -816,7 +850,7 @@ def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,c
 
     {'':>12}LEFT :{'':>24}RIGHT :
 
-    {'':>5}{left_choice} {'':>10} {right_choice}
+    {left_choice:>22} {'':<14}{right_choice}
             ''')
 
         node = story(current_location)
@@ -834,13 +868,27 @@ def ui(current_location,text,left_choice,right_choice,left_effect,right_effect,c
             break
 
         if not story_data["choices"]:
-            print(story_data["text"])
-            break
-        
+            clear()
+            style(story_data["text"], 0.02)
+            sleep(2)
+            print("\n    Press ENTER to play again...")
+            input()
+            clear()
+            game()
+            return
+
         health = GAME_STATE["health"]
         if health <= 0:
-            style("\n    You Died!")
-            break
+            clear()
+            style("\n    YOU HAVE FALLEN...\n")
+            sleep(1)
+            style("    Your journey ends in darkness.\n")
+            sleep(1)
+            print("\n    Press ENTER to restart.")
+            input()
+            clear()
+            game()
+            return
 
         inventory = GAME_STATE["inventory"]
         text = story_data["text"]
@@ -857,7 +905,7 @@ def game():
         # reset global state
     GAME_STATE["health"] = 10
     GAME_STATE["inventory"] = {
-        "water": 50,
+        "energy": 50,
         "silver": 0,
         "gold": 0,
         "key": 0

@@ -1,9 +1,11 @@
-# Rock, Paper, Scissor game
+# Adventure Game
 
-> A branching narrative text game implemented using nested conditional statements (if/elif/else).
+> This took more time than expected, but the outcome is something I am genuinely proud of.
 
-### Requirements :  
-- The narrative must begin with a clear scenario and at least two distinct paths (e.g., "left" or "right").
-- Each path must lead to further choices, creating a minimum of 8 unique final outcomes (endings).
-- All user inputs must be processed to handle variations in spelling and capitalization.
-- State Tracking: Introduce a simple "Inventory" or "Health" variable (e.g., gold = 0, health = 100) that is affected by choices and can lead to specific, locked endings (e.g., "You didn't have enough gold, game over.").
+A lightweight terminal-based RPG adventure game built in Python.
+You wake up inside ancient ruins with nothing but a little health, a limited supply of water, and a path full of life-or-death choices. Every decision shapes the journey ahead—some choices lead toward freedom, others toward danger, and a few toward unexpected endings.
+
+- The goal is simple: Survive the ruins and escape alive.
+- The path to freedom, however, is anything but simple.
+
+<img src="./preview_images/screenshot_2025-11-29_06:21:04.png" width="600"> <img src="./preview_images/screenshot_2025-11-29_06:22:25.png" width="600">
