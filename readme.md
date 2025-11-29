@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
-  <img src="https://img.shields.io/badge/Projects-3 out of 21-blueviolet" alt="Projects">
-  <img src="https://img.shields.io/badge/Lines%20of%20Code-301-orange" alt="LOC">
-  <img src="https://img.shields.io/badge/Time-Took%202%20days-lightgrey" alt="Time">
+  <img src="https://img.shields.io/badge/Projects-4 out of 21-blueviolet" alt="Projects">
+  <img src="https://img.shields.io/badge/Lines%20of%20Code-1336-orange" alt="LOC">
+  <img src="https://img.shields.io/badge/Time-Took%204%20days-lightgrey" alt="Time">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
 
@@ -26,9 +26,8 @@
 - [x] [**Rock, Paper, Scissors**](./c-rock-paper-scissors_game) (easy)  
   - Date of completion: 26 November 2025
 
-- [x] ⭐️ [**Choose Your Own Adventure Game**](./d-choose-your-own-adventure_game) (easy but I took it further) 
+- [x] [**Adventure Game**](./d-adventure_game)⭐️ (easy, but I took it further) 
   - Date of completion: 28 November 2025
-  - It's not much but I am happy with the outcome 
 
 - [ ] **Password Manager** (medium)  
   - Date of completion:  
