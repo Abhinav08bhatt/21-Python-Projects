@@ -26,10 +26,10 @@
 - [x] [**Rock, Paper, Scissors**](./c-rock-paper-scissors_game) (easy)  
   - Date of completion: 26 November 2025
 
-- [x] [**Adventure Game**](./d-adventure_game)⭐️ (easy, but I took it further) 
+- [x] [**Adventure Game**](./d-adventure_game) ⭐️ (easy, but I took it further) 
   - Date of completion: 28 November 2025
 
-- [ ] **Password Manager** (medium)  
+- [ ] [**Password Manager**](./e-password-manager) (medium)  
   - Date of completion:  
 
 - [ ] **PIG** (medium)  
