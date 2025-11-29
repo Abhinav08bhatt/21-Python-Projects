@@ -29,8 +29,8 @@
 - [x] [**Adventure Game**](./d-adventure_game) ⭐️ (easy, but I took it further) 
   - Date of completion: 28 November 2025
 
-- [ ] [**Password Manager**](./e-password-manager) (medium)  
-  - Date of completion:  
+- [x] [**Password Manager**](./e-password-manager) (medium)  
+  - Date of completion: 29 November 2025
 
 - [ ] **PIG** (medium)  
   - Date of completion:  
