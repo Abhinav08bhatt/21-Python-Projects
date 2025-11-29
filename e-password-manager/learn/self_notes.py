@@ -37,9 +37,9 @@ with open('e-password-manager/learn/text.txt', 'rb') as enc_file:
 decrypted = fernet.decrypt(encrypted)
 
 # opening the file in write mode and
-# writing the decrypted data
-with open('e-password-manager/learn/text.txt', 'wb') as dec_file:
- dec_file.write(decrypted)
+# # writing the decrypted data
+# with open('e-password-manager/learn/text.txt', 'wb') as dec_file:
+#  dec_file.write(decrypted)
 
 print(original.decode())
 print("\n")
