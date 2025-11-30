@@ -32,8 +32,8 @@
 - [x] [**Password Manager**](./e-password-manager) (medium)  
   - Date of completion: 29 November 2025
 
-- [ ] **PIG** (medium)  
-  - Date of completion:  
+- [x] **PIG** (medium)  
+  - Date of completion: 30 November 2025 
 
 - [ ] **Madlibs Generator** (medium)  
   - Date of completion:  
