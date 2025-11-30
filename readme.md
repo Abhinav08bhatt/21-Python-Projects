@@ -32,10 +32,10 @@
 - [x] [**Password Manager**](./e-password-manager) (medium)  
   - Date of completion: 29 November 2025
 
-- [x] **PIG** (medium)  
+- [x] [**PIG**](./f-PIG) (medium)  
   - Date of completion: 30 November 2025 
 
-- [ ] **Madlibs Generator** (medium)  
+- [ ] [**Madlibs Generator**](./g-madlibs%20generator) (medium)  
   - Date of completion:  
 
 - [ ] **Timed Math Challenge** (medium)  
