@@ -7,7 +7,7 @@ def clear():
 '''----------------------------------------------------------------------'''
 
 '''TO GENERATE RANDOM NUMBER'''
-from random import randint # randint( lower-limit , upper-limit ) limits are included
+from random import randint # randint( lower-limit , upper-limit ) both the limits are included
 def random_number(upper):
     return randint(0,upper)
 '''-------------------------'''
