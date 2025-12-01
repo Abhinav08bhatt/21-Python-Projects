@@ -6,13 +6,11 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 '''----------------------------------------------------------------------'''
 
-
 '''TO MAKE THE PROGRAM SLOW WHEN NEEDED'''
 from time import sleep
 def press_key():
     input("\n\nPress ENTER to continue...")
 '''------------------------------------'''
-
 
 def qus_ans():
     lst = [

@@ -4,6 +4,6 @@
 
 ### Requirements :  
 - The program must welcome the user and if they wish to play.
-- Implement at least 5 unique questions related to chosen topic. (here, computer science)
+- Implement at least 5 unique questions related to chosen topic (here, computer science)
 - User answers must be normalized before comparison.
 - Track the user's correct answers.
