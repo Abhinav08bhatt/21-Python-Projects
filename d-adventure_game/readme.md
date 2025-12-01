@@ -8,6 +8,6 @@ You wake up inside ancient ruins with nothing but a little health, a limited sup
 - The goal is simple: Survive the ruins and escape alive.
 - The path to freedom, however, is anything but simple.
 
-> The story function was written by GPT
+> The story() function was written by GPT
 
 <img src="./preview_images/screenshot_2025-11-29_06:21:04.png" width="600"> <img src="./preview_images/screenshot_2025-11-29_06:22:25.png" width="600">

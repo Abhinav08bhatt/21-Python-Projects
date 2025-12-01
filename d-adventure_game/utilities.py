@@ -13,6 +13,7 @@ def style(s,n=0.04):
     :param s: string input
     :param n: speed of text (default 0.04)
     '''
+    
     for i in range (0,len(s)):
         print(s[i],end='')
         sleep(n)
