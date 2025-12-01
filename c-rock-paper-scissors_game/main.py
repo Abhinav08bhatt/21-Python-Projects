@@ -26,7 +26,6 @@ def valid_in():
     takes the different inputs but find the closest and return : r for rock , p for paper and s for scissors 
     possibilities : r R rock ROCK Rock rk rock (so we will focus on starting word...if its and ask the user if the user if they mean it)
     '''
-   
     while True:
         user = input("\n\nEnter your side : ").lower()
         if not user:
