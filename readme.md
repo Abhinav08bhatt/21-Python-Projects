@@ -35,11 +35,11 @@
 - [x] [**PIG**](./f-PIG) (medium)  
   - Date of completion: 30 November 2025 
 
-- [ ] [**Madlibs Generator**](./g-madlibs%20generator) (medium)  
-  - Date of completion:  
+- [x] [**Madlibs Generator**](./g-madlibs%20generator) (medium)  
+  - Date of completion: 1 December 2025
 
-- [ ] **Timed Math Challenge** (medium)  
-  - Date of completion:  
+- [ ] [**Timed Math Challenge**](./h-timed-math-challange/) (medium)  
+  - Date of completion: 
 
 - [ ] **Slot Machine** (medium)  
   - Date of completion:  
