@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
-  <img src="https://img.shields.io/badge/Projects-7 out of 21-blueviolet" alt="Projects">
+  <img src="https://img.shields.io/badge/Projects-8 out of 21-blueviolet" alt="Projects">
   <!-- <img src="https://img.shields.io/badge/Lines%20of%20Code-1420-orange" alt="LOC"> -->
-  <img src="https://img.shields.io/badge/Time-Took%207%20days-lightgrey" alt="Time">
+  <img src="https://img.shields.io/badge/Time-Took%208%20days-lightgrey" alt="Time">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
 
@@ -38,10 +38,10 @@
 - [x] [**Madlibs Generator**](./g-madlibs%20generator) (medium)  
   - Date of completion: 1 December 2025
 
-- [ ] [**Timed Math Challenge**](./h-timed-math-challange/) (medium)  
-  - Date of completion: 
+- [x] [**Timed Math Challenge**](./h-timed-math-challange) (medium)  
+  - Date of completion: 2 December 2025
 
-- [ ] **Slot Machine** (medium)  
+- [ ] [**Slot Machine**](./i-slot-machine) (medium)  
   - Date of completion:  
 
 - [ ] **Turtle Racing** (medium)  
