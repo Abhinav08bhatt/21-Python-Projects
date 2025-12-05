@@ -44,11 +44,13 @@
 - [x] [**Slot Machine**](./i-slot-machine) (medium)  
   - Date of completion: 3 December 2025  
 
-- [ ] [**Turtle Racing**](./j-turtle-racing) (medium)  
-  - Date of completion: 
+> 4 Dec 2024 : could not work.
 
-- [ ] **WPM Typing Test** (medium)  
-  - Date of completion:  
+- [x] [**Turtle Racing**](./j-turtle-racing) (medium)  
+  - Date of completion: 5 December 2025 
+
+- [ ] [**WPM Typing Test**](./k-wpm-typing_test) (medium)  
+  - Date of completion: 
 
 - [ ] **Alarm Clock** (easy)  
   - Date of completion:  
