@@ -49,10 +49,10 @@
 - [x] [**Turtle Racing**](./j-turtle-racing) (medium)  
   - Date of completion: 5 December 2025 
 
-- [ ] [**WPM Typing Test**](./k-wpm-typing_test) (medium)  
-  - Date of completion: 
+- [x] [**WPM Typing Test**](./k-wpm-typing_test) (medium)  
+  - Date of completion: 6 December 2025
 
-- [ ] **Alarm Clock** (easy)  
+- [ ] [**Alarm Clock**](./l-alarm-clock) (easy)  
   - Date of completion:  
 
 - [ ] **Password Generator** (easy)  
