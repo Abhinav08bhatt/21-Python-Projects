@@ -58,7 +58,7 @@
 - [x] [**Password Generator**](./m-password-generator) (easy)  
   - Date of completion: 7 December 2025
 
-- [ ] **Shortest Path Finder** (advanced)  
+- [ ] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
   - Date of completion:  
 
 - [ ] **NBA Stats and Current Scores** (medium)  
