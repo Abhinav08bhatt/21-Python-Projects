@@ -52,11 +52,11 @@
 - [x] [**WPM Typing Test**](./k-wpm-typing_test) (medium)  
   - Date of completion: 6 December 2025
 
-- [-] [**Alarm Clock**](./l-alarm-clock) (easy)  
-  - Date of completion:  
+- [ ] [**Alarm Clock**](./l-alarm-clock) (easy)  
+  - Date of completion: NOT WORKING 
 
-- [ ] [**Password Generator**] (easy)  
-  - Date of completion:  
+- [x] [**Password Generator**](./m-password-generator) (easy)  
+  - Date of completion: 7 December 2025
 
 - [ ] **Shortest Path Finder** (advanced)  
   - Date of completion:  
