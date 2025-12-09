@@ -44,7 +44,7 @@
 - [x] [**Slot Machine**](./i-slot-machine) (medium)  
   - Date of completion: 3 December 2025  
 
-> 4 Dec 2024 : could not work.
+> 4 Dec 2025 : could not work.
 
 - [x] [**Turtle Racing**](./j-turtle-racing) (medium)  
   - Date of completion: 5 December 2025 
@@ -60,6 +60,8 @@
 
 - [ ] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
   - Date of completion:  
+
+> 9 Dec 2025 : could not work
 
 - [ ] **NBA Stats and Current Scores** (medium)  
   - Date of completion:  
