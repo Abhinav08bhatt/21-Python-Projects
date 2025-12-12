@@ -67,6 +67,8 @@
 
 > 11 Dec 2025 : could not work
 
+> 12 Dec 2025 : could not work
+
 - [ ] **NBA Stats and Current Scores** (medium)  
   - Date of completion:  
 
