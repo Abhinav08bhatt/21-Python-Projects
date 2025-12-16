@@ -59,8 +59,9 @@
   - Date of completion: 7 December 2025
 
 - [ ] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
-  - Date of completion:  
+  - Date of completion:
 
+- Exams and Practicals are going on and I have lot of acadmics pending
 > 9 Dec 2025 : could not work
 
 > 10 Dec 2025 : could not work
@@ -74,6 +75,8 @@
 > 14 Dec 2025 : could not work
 
 > 15 Dec 2025 : could not work
+
+> 16 Dec 2025 : could not work
 
 - [ ] **NBA Stats and Current Scores** (medium)  
   - Date of completion:  
