@@ -61,29 +61,6 @@
 - [ ] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
   - Date of completion:
 
-- Exams and Practicals are going on and I have lot of acadmics pending
-> 9 Dec 2025 : could not work
-
-> 10 Dec 2025 : could not work
-
-> 11 Dec 2025 : could not work
-
-> 12 Dec 2025 : could not work
-
-> 13 Dec 2025 : could not work
-
-> 14 Dec 2025 : could not work
-
-> 15 Dec 2025 : could not work
-
-> 16 Dec 2025 : could not work
-
-> 17 Dec 2025 : could not work
-
-> 18 Dec 2025 : could not work
-
-> 19 Dec 2025 : could not work
-
 - [ ] **NBA Stats and Current Scores** (medium)  
   - Date of completion:  
 
@@ -107,10 +84,7 @@
 
 
 ---
-> _Goal is to do 1 project everyday, 21 in 21 days._
 
 | Starting Date | Finishing Date |
 |---------------|----------------|
-|  25 Nov 2025  |  _15 Dec 2025 (expected)_  |
-
-> _There will be end sem exams and practical but i will be true if i skipped a day in the project._
+|  25 Nov 2025  |  -  |
