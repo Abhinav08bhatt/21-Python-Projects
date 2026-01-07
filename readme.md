@@ -59,7 +59,7 @@
   - Date of completion: 7 December 2025
 
 - [ ] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
-  - Date of completion:
+  - Date of completion: 
 
 - [ ] **NBA Stats and Current Scores** (medium)  
   - Date of completion:  
@@ -71,7 +71,7 @@
   - Date of completion:  
 
 - [ ] **Automated File Backup** (medium)  
-  - Date of completion:  
+  - Date of completion:
 
 - [ ] **Mastermind / 4 Color Match** (advanced)  
   - Date of completion:  
