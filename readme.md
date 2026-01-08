@@ -65,7 +65,7 @@
   - Date of completion:  
 
 - [ ] **Currency Converter** (medium)  
-  - Date of completion:  
+  - Date of completion:
 
 - [ ] **YouTube Video Downloader** (medium)  
   - Date of completion:  
