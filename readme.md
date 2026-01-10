@@ -70,7 +70,7 @@
 - [ ] **YouTube Video Downloader** (medium)  
   - Date of completion:  
 
-- [ ] **Automated File Backup** (medium)  
+- [ ] **Automated File Backup** (medium) 
   - Date of completion:
 
 - [ ] **Mastermind / 4 Color Match** (advanced)  
