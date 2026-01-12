@@ -1,4 +1,4 @@
-# Python Projects from Easy to Intermediate level
+# Python Projects from Easy to Intermediate level 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
