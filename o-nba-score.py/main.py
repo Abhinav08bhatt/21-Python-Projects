@@ -1,6 +1,7 @@
 from requests import get
 from pprint import PrettyPrinter
 
+# cannot find correct api
 BASE_URL = "https://cdn.nba.com"
 ALL_JSON = "/prod/v1/today.json"
 
