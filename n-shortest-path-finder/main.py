@@ -131,7 +131,6 @@ def find_path(maze, stdscr):
             q.put((neighbor, path + [neighbor]))
 
 
-# Global variable to store selected maze
 selected_maze = maze
 
 
@@ -143,7 +142,6 @@ def main(stdscr):
     stdscr.getch()
 
 
-# Ask user which maze to choose BEFORE curses starts
 print("Choose a maze:")
 print("1. Default Maze")
 print("2. Small Maze")
