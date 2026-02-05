@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
-  <img src="https://img.shields.io/badge/Projects-12 out of 21-blueviolet" alt="Projects">
-  <img src="https://img.shields.io/badge/Time-Took%2023%20days-lightgrey" alt="Time">
+  <img src="https://img.shields.io/badge/Projects-15 out of 17-blueviolet" alt="Projects">
+  <img src="https://img.shields.io/badge/Time-Took%2021%20days-lightgrey" alt="Time">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
 
@@ -57,20 +57,28 @@
 - [x] [**Password Generator**](./m-password-generator) (easy)  
   - Date of completion: 7 December 2025
 
-- [x] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
-  - Date of completion: 8 December 2025
+> 8 Dec 2025 : could not work.
 
-- [x] [**NBA Stats and Current Scores**](./o-nba-score) (medium)  
+- [x] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced) ⭐️ (favorite project in list)  
   - Date of completion: 9 December 2025
 
-- [x] **Currency Converter** (medium)  
-  - Date of completion: 10 December 2025
+- [x] [**NBA Stats and Current Scores**](./o-nba-score) (medium)  
+  - Date of completion: NOT WORKING
 
-- [x] **YouTube Video Downloader** (medium)  
-  - Date of completion: 11 December 2025
+> 10 Dec 2025 : could not work.
+> 11 Dec 2025 : could not work.
+> 12 Dec 2025 : could not work.
+
+- [x] [**Currency Converter**](./p-currency-converter) (medium)  
+  - Date of completion: 13 December 2025
+
+> 14 Dec 2025 : could not work.
+
+- [x] [**YouTube Video Downloader**](./q-yt-video-downloader) (medium)  
+  - Date of completion: 15 December 2025
 
 ---
 
 | Starting Date | Finishing Date |
 |---------------|----------------|
-|  25 Nov 2025  |  11 Dec 2025   |
+|  25 Nov 2025  |  15 Dec 2025   |
