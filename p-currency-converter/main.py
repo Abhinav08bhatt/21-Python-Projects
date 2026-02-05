@@ -10,47 +10,66 @@ printer = PrettyPrinter()
 def get_currencies():
     endpoint = f"api/v7/currencies?apiKey={API_KEY}"
     url = BASE_URL + endpoint
-    data = get(url).json()['results']
 
-    data = list(data.items())
-    data.sort()
+    try:
+        response = get(url)
+        data = response.json()
 
-    return data
+        if "results" not in data:
+            print("Error: Could not fetch currency list.")
+            return []
+
+        currencies = list(data["results"].items())
+        currencies.sort()
+        return currencies
+
+    except Exception:
+        print("Error: API request failed.")
+        return []
 
 
 def print_currencies(currencies):
+    if not currencies:
+        print("No currencies available.")
+        return
+
     for name, currency in currencies:
-        name = currency['currencyName']
-        _id = currency['id']
+        currency_name = currency.get("currencyName", "Unknown")
+        _id = currency.get("id", "N/A")
         symbol = currency.get("currencySymbol", "")
-        print(f"{_id} - {name} - {symbol}")
+        print(f"{_id} - {currency_name} - {symbol}")
 
 
 def exchange_rate(currency1, currency2):
     endpoint = f"api/v7/convert?q={currency1}_{currency2}&compact=ultra&apiKey={API_KEY}"
     url = BASE_URL + endpoint
-    data = get(url).json()
 
-    if len(data) == 0:
-        print('Invalid currencies.')
-        return
+    try:
+        data = get(url).json()
 
-    rate = list(data.values())[0]
-    print(f"{currency1} -> {currency2} = {rate}")
+        if len(data) == 0:
+            print("Invalid currencies.")
+            return None
 
-    return rate
+        rate = list(data.values())[0]
+        print(f"{currency1} -> {currency2} = {rate}")
+        return rate
+
+    except Exception:
+        print("Error: Could not retrieve exchange rate.")
+        return None
 
 
 def convert(currency1, currency2, amount):
     rate = exchange_rate(currency1, currency2)
     if rate is None:
-        return
+        return None
 
     try:
         amount = float(amount)
-    except:
+    except ValueError:
         print("Invalid amount.")
-        return
+        return None
 
     converted_amount = rate * amount
     print(f"{amount} {currency1} is equal to {converted_amount} {currency2}")
@@ -70,6 +89,7 @@ def main():
         command = input("Enter a command (q to quit): ").lower()
 
         if command == "q":
+            print("Thank you!")
             break
         elif command == "list":
             print_currencies(currencies)
@@ -85,4 +105,6 @@ def main():
         else:
             print("Unrecognized command!")
 
-main()
+
+if __name__ == "__main__":
+    main()
