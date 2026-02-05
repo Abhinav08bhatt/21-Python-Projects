@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
   <img src="https://img.shields.io/badge/Projects-12 out of 21-blueviolet" alt="Projects">
-  <!-- <img src="https://img.shields.io/badge/Lines%20of%20Code-1420-orange" alt="LOC"> -->
   <img src="https://img.shields.io/badge/Time-Took%2013%20days-lightgrey" alt="Time">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
@@ -43,8 +42,6 @@
 
 - [x] [**Slot Machine**](./i-slot-machine) (medium)  
   - Date of completion: 3 December 2025  
-
-> 4 Dec 2025 : could not work.
 
 - [x] [**Turtle Racing**](./j-turtle-racing) (medium)  
   - Date of completion: 5 December 2025 
