@@ -57,33 +57,20 @@
 - [x] [**Password Generator**](./m-password-generator) (easy)  
   - Date of completion: 7 December 2025
 
-- [ ] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
-  - Date of completion: 
+- [x] [**Shortest Path Finder**](./n-shortest-path-finder) (advanced)  
+  - Date of completion: 8 December 2025
 
-- [ ] **NBA Stats and Current Scores** (medium)  
-  - Date of completion:  
+- [x] [**NBA Stats and Current Scores**](./o-nba-score) (medium)  
+  - Date of completion: 9 December 2025
 
-- [ ] **Currency Converter** (medium)  
-  - Date of completion:
+- [x] **Currency Converter** (medium)  
+  - Date of completion: 10 December 2025
 
-- [ ] **YouTube Video Downloader** (medium)  
-  - Date of completion:  
-
-- [ ] **Automated File Backup** (medium) 
-  - Date of completion:
-
-- [ ] **Mastermind / 4 Color Match** (advanced)  
-  - Date of completion:  
-
-- [ ] **Aim Trainer** (advanced)  
-  - Date of completion:  
-
-- [ ] **Advanced Python Scripting** (advanced)  
-  - Date of completion:  
-
+- [x] **YouTube Video Downloader** (medium)  
+  - Date of completion: 11 December 2025
 
 ---
 
 | Starting Date | Finishing Date |
 |---------------|----------------|
-|  25 Nov 2025  |  -  |
+|  25 Nov 2025  |  11 Dec 2025   |
