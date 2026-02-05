@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
   <img src="https://img.shields.io/badge/Projects-12 out of 21-blueviolet" alt="Projects">
-  <!-- <img src="https://img.shields.io/badge/Lines%20of%20Code-1420-orange" alt="LOC"> -->
   <img src="https://img.shields.io/badge/Time-Took%2023%20days-lightgrey" alt="Time">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
